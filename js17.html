@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function square(n)
+            {
+                return n*n;
+            }
+            function factorial(n)
+            {
+                if(n==0)
+                {
+                    return 1;
+                }
+                else{
+                    return (n*factorial(n-1));
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            var x=prompt("enter your number",0);
+            var l="<br/>";
+            
+            document.write(square(x));
+            document.write(l);
+            document.write(factorial(x));
+        </script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>prompt</title>
+           
+    </head>
+    <body>
+        <button onclick="mouli()">try</button>
+        <p id="demo">PTRYUIWOPEPE</p>
+        <script>
+            function mouli()
+            {
+                var x;
+                x=prompt("please enter the value","mouli");
+                if(x==null || x=='')
+                {
+                    x="cancel";
+                }
+                else
+                { x="hlo "+x+" how are u";
+                }
+                    document.getElementById("demo").innerHTML=x;
+                
+            }
+        </script>
+    </body>
+</html>
